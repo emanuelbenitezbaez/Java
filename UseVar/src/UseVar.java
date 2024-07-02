@@ -7,5 +7,8 @@ public class UseVar {
         var numero = 10;  // Se infiere que 'numero' es de tipo int
         var nombre = "Juan";  // Se infiere que 'nombre' es de tipo String
 
+        System.out.println(numero);
+        System.out.println(nombre);
+        
     }
 }
