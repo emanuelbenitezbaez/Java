@@ -14,7 +14,7 @@ public class EjercicioOr {
         System.out.print("Esta de vacaciones?:");
         var tieneVacaciones = Boolean.parseBoolean(consola.nextLine());
 
-        
+
         if(tieneLibre == true || tieneVacaciones == true){
             System.out.println("Puede asistir");
         }else{
