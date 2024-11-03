@@ -5,10 +5,10 @@ public class Main {
 
 
         System.out.println("Hello world!");
-//Libreria o biblioteca de java que se usa para mostrar ventanas emergentes o pedir datos.
+        //Libreria o biblioteca de java que se usa para mostrar ventanas emergentes o pedir datos.
 
         //El primer parametro representa a lo que esta enlazado en jop(null = toda la dimension de mi pantalla)
-       // JOptionPane.showMessageDialog(null,"Error al ingresar usuario!","error:",JOptionPane.ERROR_MESSAGE);
+        // JOptionPane.showMessageDialog(null,"Error al ingresar usuario!","error:",JOptionPane.ERROR_MESSAGE);
 
         JOptionPane.showMessageDialog(null,"Ingreso de datos: ");
 
