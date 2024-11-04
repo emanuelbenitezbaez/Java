@@ -21,6 +21,8 @@ Utiliza estructuras if-else if-else para imprimir la estación del año según l
             System.out.println("Usted ha ingresado en mes "+ mes + " y corresponde a la estacion Verano");
         } else if (mes==9 || mes == 10 || mes == 11) {
             System.out.println("Usted ha ingresado en mes "+ mes + " y corresponde a la estacion Otoño");
+        }else{
+            System.out.println("Error!El numero ingresado no corresponde a ningun mes. Intente de nuevo.");
         }
     }
 }
