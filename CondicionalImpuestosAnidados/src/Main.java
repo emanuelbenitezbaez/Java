@@ -22,18 +22,17 @@ public class Main {
         int numero_dependiente = entrada.nextInt();
 
 
-        if (ingreso < 20000){
+        if(ingreso < 20000){
             System.out.println("La tasa es del 10%");
-        }else if (ingreso >= 20000 && ingreso < 50000){
+        }else if(ingreso >= 20000 && ingreso < 50000){
             if (numero_dependiente >3){
                 System.out.println("La tasa es del 15%");
             } else if (numero_dependiente <= 3) {
                 System.out.println("La tasa es del 20%");
             }
-        } else if (ingreso >= 50000) {
+        }else{
             System.out.println("La tasa es del 30%");
         }
-
 
     }
 }
