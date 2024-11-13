@@ -6,7 +6,22 @@ public class Main {
 
         // Para trabajar con listas debo importar una libreria.
         // java.util.ArrayList;
+        // Una lista puede contener diferentes tipos de datos y tiene un tamaño dinamico
+        // Puedo usar metodos especificos.
+        List<String> misCadenas = new ArrayList<>();
+        misCadenas.add("Hola");
 
+        misCadenas.add("Como");
+
+        misCadenas.add("estas?");
+        System.out.println("Primer cadena: " + misCadenas);
+        System.out.println("Valor obtenido de la posicion 1 de la cadena:  " + misCadenas.get(1));
+        misCadenas.set(2,"va?");
+        System.out.println("Cadena nueva modificada : " + misCadenas);
+
+        misCadenas.remove(0);
+        System.out.println("Cadena despues de eliminar elemento:" + misCadenas);
+        System.out.println("Tamaño de la cadena despues de eliminar un elemento: " + misCadenas.size());
         // Declaracion de lista
         List<Integer> miLista = new ArrayList<>();
 
