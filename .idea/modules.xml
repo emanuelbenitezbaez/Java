@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnidadosMasBooleans/AnidadosMasBooleans.iml" filepath="$PROJECT_DIR$/AnidadosMasBooleans/AnidadosMasBooleans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ciclos/Ciclos.iml" filepath="$PROJECT_DIR$/Ciclos/Ciclos.iml" />
       <module fileurl="file://$PROJECT_DIR$/CondicionalAnidado/CondicionalAnidado.iml" filepath="$PROJECT_DIR$/CondicionalAnidado/CondicionalAnidado.iml" />
       <module fileurl="file://$PROJECT_DIR$/CondicionalImpuestosAnidados/CondicionalImpuestosAnidados.iml" filepath="$PROJECT_DIR$/CondicionalImpuestosAnidados/CondicionalImpuestosAnidados.iml" />
