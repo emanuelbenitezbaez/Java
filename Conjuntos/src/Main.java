@@ -19,6 +19,6 @@ public class Main {
         System.out.println(frutas); // Imprime: [banana, manzana, pera,naranja] (el orden puede variar)
         System.out.println("Tamaño del conjunto: " + frutas.size());
 
-        
+
     }
 }
