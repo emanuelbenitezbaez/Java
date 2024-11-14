@@ -8,6 +8,7 @@ public class Main {
         //
         //Declara una lista de enteros y agrega los valores {5, 10, 15, 20, 25}. Imprime el primer y el último elemento de la lista.
 
+        //ArrayList<tipoDeDato> nombreLista = new ArrayList<>();
         List<Integer> enteros = new ArrayList<>();
         enteros.add(5);
         enteros.add(10);
