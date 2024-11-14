@@ -13,7 +13,7 @@ for (inicialización; condición; incremento) {
         var valor_maximo = 10;
 
         for (int i = 1; i <= valor_maximo; i++) {
-            System.out.println("El valor de [i] es: " + i);
+            System.out.println("El valor del indice " + i + " es: " + i);
         }
     }
 }
