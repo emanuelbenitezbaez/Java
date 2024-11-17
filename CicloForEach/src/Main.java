@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        //¡Claro! Con gusto te explico el bucle forEach en Java.
+        // Bucle forEach en Java.
         //
         //El bucle forEach en Java: Una forma más sencilla de iterar
         //El bucle forEach es una característica introducida en Java 8 que nos permite iterar sobre los elementos
