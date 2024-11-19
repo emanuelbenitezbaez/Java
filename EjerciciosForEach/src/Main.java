@@ -17,14 +17,11 @@ public class Main {
 
         for(String cadena : cadenas){
 
-            System.out.println(cadena);
+            if(cadena.equals("Banasna")){
+                System.out.println("El conjunto contiene banasna.");
+            }
         }
-        boolean contiene = cadenas.contains("Banana");
 
-        if (contiene){
-            System.out.println("El conjunto contiene el elemento Banana? " + true);
-        } else {
-            System.out.println("El conjunto contiene el elemento Banana? " + false);
-        }
+
     }
 }
