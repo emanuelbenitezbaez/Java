@@ -14,10 +14,15 @@ public class Main {
         cadenas.add("Azul");
         cadenas.add("Amarillo");
 
+
+        System.out.println("Elementos:");
+        int contador = 0;
         for( String cadena : cadenas){
             System.out.println(cadena);
+            contador ++;
         }
-        int elementos = cadenas.size();
-        System.out.println("Cantidad de elementos en la lista: " + elementos);
+
+
+        System.out.println("Cantidad de elementos en la lista: " + contador);
     }
 }
