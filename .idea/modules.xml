@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/Listas/Listas.iml" filepath="$PROJECT_DIR$/Listas/Listas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mapas/Mapas.iml" filepath="$PROJECT_DIR$/Mapas/Mapas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operadores/Operadores.iml" filepath="$PROJECT_DIR$/Operadores/Operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/SentenciasCondicionales/SentenciasCondicionales.iml" filepath="$PROJECT_DIR$/SentenciasCondicionales/SentenciasCondicionales.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringsMetodos/StringsMetodos.iml" filepath="$PROJECT_DIR$/StringsMetodos/StringsMetodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/UseVar/UseVar.iml" filepath="$PROJECT_DIR$/UseVar/UseVar.iml" />
