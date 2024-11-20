@@ -1,3 +1,4 @@
+
 public class Main {
 
     String color;
@@ -24,7 +25,8 @@ public class Main {
         System.out.println("Precio coche 1: " + coche.precio);
         System.out.println("Recorrido coche 1: " + coche.recorrido);
 
-        System.out.println("-------------------------------------------");
+        System.out.println("------------------------------------------");
+
         Main coche2 = new Main();
 
         coche2.color ="Negro";
@@ -32,9 +34,28 @@ public class Main {
         coche2.recorrido = 90000;
         coche2.precio = 7000;
 
-        System.out.println("Color coche 2: " + coche2.color);
-        System.out.println("Precio coche 2: " + coche2.precio);
-        System.out.println("Recorrido coche 2: " + coche2.recorrido);
+        System.out.println("Color coche2: " + coche2.color);
+        System.out.println("Precio coche2: " + coche2.precio);
+        System.out.println("Recorrido coche2: " + coche2.recorrido);
+        System.out.println("-------------------------------------------");
+
+        //Creacion de objetos y llamada a metodos:
+
+        Operaciones operaciones = new Operaciones();
+
+        operaciones.leerNumeros();
+        operaciones.sumar();
+        operaciones.restar();
+        operaciones.multiplicar();
+        operaciones.dividir();
+        operaciones.mostrarResultados();
+
+
+
+
+
+
+
 
     }
 }
