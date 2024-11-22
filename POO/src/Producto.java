@@ -33,6 +33,13 @@ public class Producto {
         System.out.println("Nombre: " + nombre);
         System.out.println("Precio: " + precio);
         System.out.println("Cantidad: " + cantidad);
+    }
+
+    public void ShowPlus() {
+        System.out.println("Datos: ");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Precio: " + precio);
+        System.out.println("Cantidad: " + cantidad);
         System.out.println("Descripcion: " + descripcion);
     }
 

@@ -11,7 +11,7 @@ public class EjecutarProducto {
         producto.Show();
         producto1.Show();
         producto2.Show();
-        producto3.Show();
+        producto3.ShowPlus();
 
     }
 }
