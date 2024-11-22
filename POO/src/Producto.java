@@ -12,12 +12,20 @@ public class Producto {
     String nombre;
     double precio;
     int cantidad;
+    String descripcion;
 
     //Constructor
     public Producto (String nombre,double precio, int cantidad){
         this.nombre = nombre;
         this.precio = precio;
         this.cantidad = cantidad;
+    }
+    //Sobrecarga de metodo
+    public Producto (String nombre,double precio, int cantidad,String descripcion){
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.descripcion = descripcion;
     }
 
     public void Show() {
