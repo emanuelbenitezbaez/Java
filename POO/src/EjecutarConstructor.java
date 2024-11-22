@@ -3,7 +3,6 @@ public class EjecutarConstructor {
 
         //Crear obejeto
         Constructor constructor = new Constructor("Emanuel",35);
-
         constructor.Show();
 
 
