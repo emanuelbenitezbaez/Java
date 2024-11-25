@@ -18,7 +18,7 @@ public class Vehiculo {
         this.anio = anio;
     }
 
-    public void show (){
+    public void mostrarDetalles (){
         System.out.println("---------- DETALLES DEL VEHICULO ----------");
         System.out.println("Marca: "+ getMarca());
         System.out.println("Modelo : " + getModelo());

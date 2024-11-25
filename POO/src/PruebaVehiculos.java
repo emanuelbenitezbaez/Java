@@ -3,9 +3,9 @@ public class PruebaVehiculos {
 
 
     Auto auto = new Auto("Chevrolet","Camaro",1960,4);
-    auto.show();
+    auto.mostrarDetalles();
 
     Motocicleta motocicleta = new Motocicleta("Indian","Scout",1980,"Seguro");
-    motocicleta.show();
+    motocicleta.mostrarDetalles();
     }
 }

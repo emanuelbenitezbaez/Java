@@ -7,12 +7,10 @@ public class Auto extends  Vehiculo{
         super(marca, modelo, anio);
         this.numPuertas = numPuertas;
     }
-
-    public void show (){
-        System.out.println("---------- DETALLES DEL VEHICULO ----------");
-        System.out.println("Marca: "+ getMarca());
-        System.out.println("Modelo : " + getModelo());
-        System.out.println("Año: " + getAnio());
-        System.out.println("Numero de puertas:" + numPuertas);
+    @Override
+    public void mostrarDetalles() {
+        super.mostrarDetalles();
+        System.out.println("Número de puertas: " + numPuertas);
     }
+
 }
