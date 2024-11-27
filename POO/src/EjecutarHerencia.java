@@ -11,11 +11,13 @@ public class EjecutarHerencia {
         System.out.println("Colaborador");
         System.out.println("Domicilio del colaborador: " + colaborador.getDomicilio());
         System.out.println("Numero de legajo del colaborador: " + colaborador.getNum_legajo());
+        
 
         //Consultor:
         System.out.println("Consultor");
         System.out.println("Domicilio del consultor: " + consultor.getDomicilio());
         System.out.println("Numero de legajo del consultor: " + consultor.getNumero_consultor());
         System.out.println("Consultora: " + consultor.getNombre_consultora());
+
     }
 }
