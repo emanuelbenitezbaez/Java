@@ -17,17 +17,19 @@ public class EjecutarMetodosYClasesAbstractas {
         moto.conducir();
         coche.encender();
 
-        Animal animal = new Leon();
-        animal.comer();
-
-        Animal animal1 = new Elefante();
-        animal1.comer();
-
         Animal leon = new Leon();
         Animal elefante = new Elefante();
 
+        //Accedemos al metodo abastracto de la clase padre hacerSonido() desde sus clases hijas.
         leon.hacerSonido();
+        //Comer es un metodo concreto
+        leon.comer();
+
+        //Accedemos al metodo abastracto de la clase padre hacerSonido() desde sus clases hijas.
         elefante.hacerSonido();
+        //Comer es un metodo concreto.
+        elefante.comer();
+
 
     }
 }
