@@ -16,12 +16,18 @@ public class EjecutarMetodosYClasesAbstractas {
 
         moto.conducir();
         coche.encender();
+
+        Animal animal = new Leon();
+        animal.comer();
+
+        Animal animal1 = new Elefante();
+        animal1.comer();
+
+        Animal leon = new Leon();
+        Animal elefante = new Elefante();
+
+        leon.hacerSonido();
+        elefante.hacerSonido();
+
     }
-
-
-
-
-
-
-
 }
