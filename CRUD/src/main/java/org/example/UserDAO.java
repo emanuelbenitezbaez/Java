@@ -23,7 +23,11 @@ public class UserDAO {
             ResultSet resultSet = statement.executeQuery()) {
         while (resultSet.next()) {
             System.out.println("ID: " + resultSet.getInt("id")); System.out.println("Name: " + resultSet.getString("name"));
-            System.out.println("Email: " + resultSet.getString("email")); } } catch (SQLException e) { e.printStackTrace();
+            System.out.println("Email: " + resultSet.getString("email"));
+        }
+    } catch (SQLException e)
+    {
+        e.printStackTrace();
     }
     }
 
