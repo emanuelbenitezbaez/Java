@@ -15,6 +15,7 @@ public class CuentaBancaria {
     //En esta clase principal, crea un objeto de la clase CuentaBancaria.
     //Asigna valores iniciales al número de cuenta, saldo y titular utilizando un constructor.
     //Muestra el estado inicial de la cuenta en la consola.
+
     //Modifica el nombre del titular y realiza un depósito utilizando los métodos proporcionados.
     //Muestra el estado final de la cuenta.
     //Requisitos
@@ -23,7 +24,7 @@ public class CuentaBancaria {
     //Muestra los valores en la consola con mensajes claros y descriptivos.
 
     //atributos
-    private String numeroCuenta;
+    private final String numeroCuenta;
     private double saldo;
     private String titular;
 
@@ -55,11 +56,13 @@ public class CuentaBancaria {
         this.titular = titular;
     }
 
-    public double depositar(double cantidad){
+    public void depositar(double cantidad){
 
         if (cantidad>0){
             saldo = cantidad;
+        }else {
+            System.out.println("No se puede depositar una cantidad negativa.");
         }
-       return saldo;
+
     }
 }
