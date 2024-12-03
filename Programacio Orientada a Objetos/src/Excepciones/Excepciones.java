@@ -11,9 +11,10 @@ public class Excepciones {
 
 
 
-
+        //Intenta ejecutar el codigo o la logica
         try {
             System.out.println("Edad" + edades[4]);
+        //Si encuentro una excepcion lo cacheo
         } catch ( Exception  ex) {
             System.out.println("Intente acceder a un indice que no tengo.");
 
