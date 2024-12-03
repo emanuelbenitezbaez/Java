@@ -16,6 +16,10 @@ public class Excepciones {
             System.out.println("Edad" + edades[4]);
         } catch ( Exception  ex) {
             System.out.println("Intente acceder a un indice que no tengo.");
+
+            //Pase lo que pase ejecuta la logica en el finally
+        }finally {
+            System.out.println("pase lo que pase ejecuto la logica..");
         }
 
     }
