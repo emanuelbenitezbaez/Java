@@ -6,7 +6,7 @@ public class Exceptions {
 
 
     public void FilesText () throws FileNotFoundException, IOException {
-        File text = new File("C:\\Users\\emanu\\Desktop\\Java\\Fle.txt");
+        File text = new File("C:\\Users\\emanu\\Desktop\\Java\\File.txt");
         FileReader read = new FileReader(text);
         BufferedReader buff = new BufferedReader(read);
 
@@ -17,7 +17,7 @@ public class Exceptions {
         }
 
     }
-    public void ExceptioReader () {
+    public void ExceptionReader () {
         //Ejecucion del metodo,codigo o funcion.
         try {
             FilesText();
@@ -28,7 +28,7 @@ public class Exceptions {
     public static void main(String[] args) {
 
         Exceptions exepts = new Exceptions();
-        exepts.ExceptioReader();
+        exepts.ExceptionReader();
 
     }
     }
