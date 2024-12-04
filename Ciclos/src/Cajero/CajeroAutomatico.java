@@ -40,16 +40,25 @@ public class CajeroAutomatico {
 
                     System.out.println("Ingrese monto a retirar: ");
                     retiro = consola.nextDouble();
-                    saldo = saldo - retiro;
-                    System.out.println("Monto a retirar: $" + retiro);
-                    System.out.println("Saldo actual $:" + saldo);
+                    if (retiro>saldo){
+                        System.out.println("Usted no puede retirar esa cantidad.");
+                    }else {
+                        saldo = saldo - retiro;
+                        System.out.println("Monto a retirar: $" + retiro);
+                        System.out.println("Saldo actual $:" + saldo);
+                    }
+
                     break;
                 case 3 :
                     System.out.println("Ingrese monto a depositar: ");
                     deposito = consola.nextDouble();
                     saldo= saldo + deposito;
-                    System.out.println("Monto ha depositar : $" + deposito);
-                    System.out.println("Su nuevo saldo es: $" + saldo);
+                    if (deposito<0){
+                        System.out.println("Ingrese un saldo mayor a 0.");
+                    }else {
+                        System.out.println("Monto ha depositar : $" + deposito);
+                        System.out.println("Su nuevo saldo es: $" + saldo);
+                    }
                     break;
                 case 4:
                     System.out.println("Saliendo..");
