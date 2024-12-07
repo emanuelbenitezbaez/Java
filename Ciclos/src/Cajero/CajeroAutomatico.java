@@ -47,7 +47,6 @@ public class CajeroAutomatico {
                         System.out.println("Monto a retirar: $" + retiro);
                         System.out.println("Saldo actual $:" + saldo);
                     }
-
                     break;
                 case 3 :
                     System.out.println("Ingrese monto a depositar: ");

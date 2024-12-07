@@ -1,4 +1,5 @@
-import java.util.Arrays;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,14 +9,31 @@ public class Main {
 
         int [] arrays = {1,2,3,4,5,6,7,8,9};
 
-        for(int i = 0; i < arrays.length;i++){
-            System.out.println("Arrays: " + arrays[i]);
+        for (int array : arrays) {
+            System.out.println("Arrays: " + array);
         }
 
         String [] cadena= {"ygfg","ujhiuh","yhgy","hgfug","pvrxtr"};
 
-        for(int i = 0; i < cadena.length;i++){
-            System.out.println("Cadenas: " + cadena[i]);
+        for (String s : cadena) {
+            System.out.println("Cadenas: " + s);
+        }
+
+
+
+        Scanner consola = new Scanner(System.in);
+        System.out.println("Ingresa la cantidad de elementos a ingresar:");
+        var cantidad_elementos = consola.nextInt();
+
+        int[] elementos = new int[cantidad_elementos];
+
+        for (int i = 0; i < cantidad_elementos; i++) {
+            System.out.println("Ingrese el elemento en el índice " + i + ": ");
+            elementos[i] = consola.nextInt();
+        }
+
+        for (int i = 0; i < cantidad_elementos; i++) {
+            System.out.println("Elemento en el índice " + i + ": " + elementos[i]);
         }
     }
 }
