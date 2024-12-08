@@ -14,7 +14,7 @@ public class Promedio {
 
 
         //Cargamos notas
-        
+
         int acumulador=0;
         int resultado;
         for (int i =0; i < entrada;i++){
