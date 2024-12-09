@@ -23,6 +23,19 @@ public class Matriz {
                 }
         }
 
+        //MATRIZ SIMPPLIFICADA
+
+        int [][] otra_matriz = {
+                {1,2,3},
+                {4,5,6}
+        };
+
+        for (int x = 0;x < otra_matriz.length;x++ ){
+            for (int y = 0;y < otra_matriz[x].length;y++){
+                System.out.println("X " + x +" Y "+ y +"--> VALOR: " + otra_matriz[x][y]);
+            }
+        }
+
 
     }
 }
