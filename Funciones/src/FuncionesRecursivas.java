@@ -7,7 +7,7 @@ public class FuncionesRecursivas {
            System.out.println(numero);
        }else {
            //caso recursivo
-           System.out.println(numero);
+           System.out.print(numero + " ");
            recursiva(numero-1);//llamo a la funcion misma
        }
     }

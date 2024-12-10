@@ -13,6 +13,9 @@
       <module name="mat" target="23" />
       <module name="Matrices" target="23" />
       <module name="MenuInteractivo" target="23" />
+      <module name="Metodos" target="23" />
+      <module name="Random" target="23" />
+      <module name="untitled1" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
