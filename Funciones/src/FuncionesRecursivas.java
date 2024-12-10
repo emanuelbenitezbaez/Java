@@ -8,7 +8,7 @@ public class FuncionesRecursivas {
        }else {
            //caso recursivo
            System.out.println(numero);
-           recursiva(numero-1);
+           recursiva(numero-1);//llamo a la funcion misma
        }
     }
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class FuncionesRecursivas {
         //2 - Debe avanzar hacia un caso base o cae en bucle infinito.
 
         //Imprimir del 10 al 1
-        
+
         //LLamada funcion
         recursiva(10);
 
