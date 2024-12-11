@@ -27,6 +27,6 @@ Instalación
 
 Clona el repositorio:
 
-https://github.com/Emanuel-Baez/Java.git
+https://github.com/emanuelbenitezbaez/Java.git
 
 cd aprendiendo-java
