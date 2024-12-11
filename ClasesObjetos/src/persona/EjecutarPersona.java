@@ -8,9 +8,9 @@ public class EjecutarPersona {
         persona1.obtenerDatos();
 
         Persona persona2 = new Persona();
-        persona2.name="Paula";
-        persona2.username="Federico";
-        persona2.age=34;
+        persona2.setName("Paula");
+        persona2.setUsername("Federico");
+        persona2.setAge(34);
 
         persona2.obtenerDatos();
 
