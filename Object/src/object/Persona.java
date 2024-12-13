@@ -1,8 +1,8 @@
 package object;
 
 public class Persona {
-    String name;
-    String surname;
+   private  String name;
+   private  String surname;
 
     public Persona(String name, String surname) {
         this.name = name;
