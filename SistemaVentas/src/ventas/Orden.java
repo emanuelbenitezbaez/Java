@@ -1,7 +1,7 @@
 package ventas;
 public class Orden {
     private final int idOrden;
-    private Producto[] productos;
+    private final Producto[] productos;
     private int contadorProductos;
     private static int contadorOrdenes = 0;
     private static final int maxProduct = 4;
@@ -21,17 +21,23 @@ public class Orden {
     }
     public double calcularTotal() {
         double total = 0;
-        for (int i = 0; i < contadorProductos; i++) {
-            total += this.productos[i].getPrecioProducto();
-        } return total;
+
+
+        for (Producto producto : this.productos) {
+            if (producto != null) {
+                total += producto.getPrecioProducto();
+            }
+        }
+        return total;
     }
     public void mostrarOrden() {
         System.out.println("---------------------------------------------------------------------");
         System.out.println("Id de Orden: " + this.idOrden);
-
         System.out.println("Productos: ");
-        for (int i = 0; i < this.contadorProductos; i++) {
-            System.out.println(this.productos[i]);
+
+
+        for (Producto producto : this.productos) {
+            System.out.println(producto);
         }
         System.out.println("Total: " + this.calcularTotal());
     }

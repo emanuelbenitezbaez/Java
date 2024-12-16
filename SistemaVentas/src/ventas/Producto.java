@@ -2,8 +2,8 @@ package ventas;
 public class Producto {
     private static int cantidadProducto = 0;
     private final int idProducto;
-    private String nombreProducto;
-    private double precioProducto;
+    private final String nombreProducto;
+    private final double precioProducto;
 
 
     public Producto(double precioProducto, String nombreProducto) {
