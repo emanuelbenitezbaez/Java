@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/IngresoDatos/IngresoDatos.iml" filepath="$PROJECT_DIR$/IngresoDatos/IngresoDatos.iml" />
       <module fileurl="file://$PROJECT_DIR$/IngresoDatosJoptions/IngresoDatosJoptions.iml" filepath="$PROJECT_DIR$/IngresoDatosJoptions/IngresoDatosJoptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/IngresoDatosPractica/IngresoDatosPractica.iml" filepath="$PROJECT_DIR$/IngresoDatosPractica/IngresoDatosPractica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java Avanzado/Java Avanzado.iml" filepath="$PROJECT_DIR$/Java Avanzado/Java Avanzado.iml" />
       <module fileurl="file://$PROJECT_DIR$/Listas/Listas.iml" filepath="$PROJECT_DIR$/Listas/Listas.iml" />
