@@ -16,5 +16,11 @@ public class Bucles {
 
         }
 
+        do {
+            System.out.println("Ingrese un numero distinto de 0 para continaur en el bulce: ");
+            cantidad = entrada.nextInt();
+        }
+        while (cantidad != 0);
+
     }
 }
