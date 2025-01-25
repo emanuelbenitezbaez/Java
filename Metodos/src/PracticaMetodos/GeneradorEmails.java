@@ -1,3 +1,5 @@
+package PracticaMetodos;
+
 import java.util.Scanner;
 
 public class GeneradorEmails {

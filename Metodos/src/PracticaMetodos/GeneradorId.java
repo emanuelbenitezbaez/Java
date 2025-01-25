@@ -1,3 +1,5 @@
+package PracticaMetodos;
+
 import java.text.DecimalFormat;
 import java.util.Random;
 import java.util.Scanner;

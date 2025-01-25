@@ -1,3 +1,5 @@
+package PracticaMetodos;
+
 import java.text.DecimalFormat;
 
 public class Redondeo {
